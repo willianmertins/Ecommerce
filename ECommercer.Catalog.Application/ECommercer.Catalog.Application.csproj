@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ECommerce.Catalog.Domain\ECommerce.Catalog.Domain.csproj" />
+    <ProjectReference Include="..\ECommerce.Common\ECommerce.Common.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Commands\CreateProducts\" />
+    <Folder Include="Commands\DeleteProducts\" />
+    <Folder Include="Commands\UpdateProducts\" />
+    <Folder Include="DTOs\" />
+    <Folder Include="Mappers\" />
+    <Folder Include="Interfaces\" />
+    <Folder Include="Events\" />
+    <Folder Include="Queries\GetProducts\" />
+    <Folder Include="Queries\GetProductById\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="12.1.1" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="12.1.1" />
+    <PackageReference Include="Mapster" Version="7.4.0" />
+    <PackageReference Include="MediatR" Version="14.0.0" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,32 @@
+<Solution>
+  <Folder Name="/docs/" />
+  <Folder Name="/src/" />
+  <Folder Name="/src/ApiGateway/">
+    <Project Path="ECommerce.ApiGateway/ECommerce.ApiGateway.csproj" />
+  </Folder>
+  <Folder Name="/src/BuildingBlocks/">
+    <Project Path="ECommerce.Common/ECommerce.Common.csproj" />
+    <Project Path="ECommerce.EventBus/ECommerce.EventBus.csproj" />
+    <Project Path="ECommerce.Logging/ECommerce.Logging.csproj" />
+  </Folder>
+  <Folder Name="/src/Services/" />
+  <Folder Name="/src/Services/Basket/">
+    <Project Path="ECommerce.Basket.API/ECommerce.Basket.API.csproj" />
+    <Project Path="ECommerce.Basket.Application/ECommerce.Basket.Application.csproj" />
+    <Project Path="Ecommerce.Basket.Domain/Ecommerce.Basket.Domain.csproj" />
+    <Project Path="ECommerce.Basket.Infrastructure/ECommerce.Basket.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/src/Services/Catalog/">
+    <Project Path="ECommerce.Catalog.API/ECommerce.Catalog.API.csproj" />
+    <Project Path="ECommerce.Catalog.Domain/ECommerce.Catalog.Domain.csproj" />
+    <Project Path="ECommerce.Catalog.Infrastructure/ECommerce.Catalog.Infrastructure.csproj" />
+    <Project Path="ECommercer.Catalog.Application/ECommercer.Catalog.Application.csproj" />
+  </Folder>
+  <Folder Name="/src/Services/Order/">
+    <Project Path="ECommerce.Order.API/ECommerce.Order.API.csproj" />
+    <Project Path="ECommerce.Order.Application/ECommerce.Order.Application.csproj" />
+    <Project Path="ECommerce.Order.Domain/ECommerce.Order.Domain.csproj" />
+    <Project Path="ECommerce.Order.Infrastructure/ECommerce.Order.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/" />
+</Solution>
