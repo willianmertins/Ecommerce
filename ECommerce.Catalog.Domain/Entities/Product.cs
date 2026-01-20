@@ -12,6 +12,7 @@ public class Product : BaseEntity, IAggregateRoot
     public int Stock { get; private set; }
     public string ImageUrl { get; private set; } = string.Empty;
     public Guid? CategoryId { get; private set; }
+    public Category? Category { get; private set; }
 
     private Product() { }
 

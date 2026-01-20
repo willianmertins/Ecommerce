@@ -18,9 +18,9 @@
   </Folder>
   <Folder Name="/src/Services/Catalog/">
     <Project Path="ECommerce.Catalog.API/ECommerce.Catalog.API.csproj" />
+    <Project Path="ECommerce.Catalog.Application\ECommerce.Catalog.Application.csproj" />
     <Project Path="ECommerce.Catalog.Domain/ECommerce.Catalog.Domain.csproj" />
     <Project Path="ECommerce.Catalog.Infrastructure/ECommerce.Catalog.Infrastructure.csproj" />
-    <Project Path="ECommercer.Catalog.Application/ECommercer.Catalog.Application.csproj" />
   </Folder>
   <Folder Name="/src/Services/Order/">
     <Project Path="ECommerce.Order.API/ECommerce.Order.API.csproj" />
