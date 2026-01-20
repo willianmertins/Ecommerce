@@ -1,6 +1,6 @@
 ﻿services:
   sqlserver:
-    image: mcr.microsoft.com/mssql/server:2022-latest
+    image: mcr.microsoft.com/azure-sql-edge:latest
     container_name: ecommerce-sqlserver
     environment:
       - ACCEPT_EULA=Y
@@ -54,6 +54,7 @@
     container_name: ecommerce-seq
     environment:
       - ACCEPT_EULA=Y
+      - SEQ_FIRSTRUN_ADMINPASSWORD=Your_password123
     ports:
       - "5341:80"
     volumes:
@@ -64,7 +65,7 @@
 volumes:
   sqlserver-data:
   seq-data:
-    
+
 networks:
   ecommerce-network:
     driver: bridge
